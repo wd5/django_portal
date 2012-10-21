@@ -1,0 +1,70 @@
+- fields: {rut: 11.631.852-0, usuario: 4}
+  model: portal_e_learning.userprofile
+  pk: 1
+- fields: {rut: 8.615.108-1, usuario: 5}
+  model: portal_e_learning.userprofile
+  pk: 2
+- fields: {rut: 11.824.779-5, usuario: 6}
+  model: portal_e_learning.userprofile
+  pk: 3
+- fields: {rut: 6.343.259-8, usuario: 7}
+  model: portal_e_learning.userprofile
+  pk: 4
+- fields: {rut: 7.166.555-0, usuario: 8}
+  model: portal_e_learning.userprofile
+  pk: 5
+- fields: {rut: 8.734.994-2, usuario: 9}
+  model: portal_e_learning.userprofile
+  pk: 6
+- fields: {rut: 8.935.654-7, usuario: 10}
+  model: portal_e_learning.userprofile
+  pk: 7
+- fields: {rut: 9.060.082-6, usuario: 11}
+  model: portal_e_learning.userprofile
+  pk: 8
+- fields: {rut: 6.687.760-4, usuario: 12}
+  model: portal_e_learning.userprofile
+  pk: 9
+- fields: {rut: 8.325.249-9, usuario: 13}
+  model: portal_e_learning.userprofile
+  pk: 10
+- fields:
+    abierta: true
+    alumnos: [4]
+    clave: ''
+    contenido: "La prueba consta de los siguientes 2 \xEDtem:\r\n\r\n21 preguntas\
+      \ de alternativas \r\n11 preguntas de verdadero y falso\r\nEl porcentaje m\xED\
+      nimo de aprobaci\xF3n es de 75%, todas las preguntas tienen la misma puntuaci\xF3\
+      n."
+    descripcion: "Prueba de evaluaci\xF3n de nivel Junior"
+    docentes: [4]
+    habilitada: true
+    nombre: "Re-Certificaci\xF3n T\xE9cnico Junior"
+  model: portal_e_learning.capacitacion
+  pk: 1
+- fields:
+    abierta: false
+    alumnos: []
+    clave: ''
+    contenido: "20 preguntas de alternativas \r\n10 preguntas de verdadero y falso\r\
+      \nEl porcentaje m\xEDnimo de aprobaci\xF3n es de 75%, todas las preguntas tienen\
+      \ la misma puntuaci\xF3n."
+    descripcion: "Prueba de evaluaci\xF3n de nivel Senior"
+    docentes: []
+    habilitada: false
+    nombre: "Re-Certificaci\xF3n T\xE9cnico Senior"
+  model: portal_e_learning.capacitacion
+  pk: 2
+- fields:
+    abierta: false
+    alumnos: []
+    clave: ''
+    contenido: "20 preguntas de alternativas \r\n10 preguntas de verdadero y falso\r\
+      \nEl porcentaje m\xEDnimo de aprobaci\xF3n es de 75%, todas las preguntas tienen\
+      \ la misma puntuaci\xF3n."
+    descripcion: "Prueba de evaluaci\xF3n de nivel Supervisor"
+    docentes: []
+    habilitada: false
+    nombre: "Re-Certificaci\xF3n T\xE9cnico Supervisor"
+  model: portal_e_learning.capacitacion
+  pk: 3
